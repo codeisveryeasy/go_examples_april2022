@@ -23,4 +23,8 @@ func main() {
 	if writeError != nil {
 		panic(writeError)
 	}
+
+	check, error := fmt.Println("Hello")
+	fmt.Println(error)
+	fmt.Println(check)
 }
