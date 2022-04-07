@@ -40,7 +40,7 @@ func writeToFile(countOfRows int, filename string, wg *sync.WaitGroup) {
 	}
 	filePointer.Close()
 
-	//fmt.Printf("Written %v lines to file %v\n", countOfRows, filename)
+	fmt.Printf("Written %v lines to file %v\n", countOfRows, filename)
 	wg.Done()
 
 }

@@ -35,6 +35,6 @@ func writeToFile(countOfRows int, filename string) {
 	}
 	filePointer.Close()
 
-	//fmt.Printf("Written %v lines to file %v\n", countOfRows, filename)
+	fmt.Printf("Written %v lines to file %v\n", countOfRows, filename)
 
 }
